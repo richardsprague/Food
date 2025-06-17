@@ -12,7 +12,7 @@ Chicken Thighs Morocco and Barley
 
 I did this recipe from [Silk Road Recipes](https://silkroadrecipes.com/moroccan-spiced-chicken-and-barley/#recipe)
 
-But I substituted a leeks/carrot/celery [mirepoix](Mirepoix Tips.md) for the onion/bell pepper below.
+But I substituted a leeks/carrot/celery  [mirepoix](Mirepoix%20Tips.md) for the onion/bell pepper below.
 
 Next time: don't forget the soy sauce
 

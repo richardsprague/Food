@@ -42,4 +42,4 @@ Using our 20% first time order discount, we paid $47 (including shipping) for th
 All in all, I thought this was an excellent service and I look forward to digging through the rest of the meals to try the different flavors. 
 
 
-from  [Meal Kit Summary](Meal Kit Overview and Recommendations.md)
+from  [Meal Kit Overview and Recommendations](Meal%20Kit%20Overview%20and%20Recommendations.md)

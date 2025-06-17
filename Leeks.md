@@ -17,4 +17,4 @@ Leeks are often mistaken for scallions, but they are the milder and more sophist
 
 ![Leeks with bell pepper](https://onedrive.live.com/embed?resid=8BC6084B92FFA451%21692381&authkey=%21AA4m9i6t2YOHDTE&width=660?no.jpg)
 
-[Leek and potato soup](Leek and potato soup.md)
+[Leek and potato soup](Leek%20and%20potato%20soup.md)

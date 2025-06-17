@@ -18,11 +18,11 @@ I used
 
 ## Examples
 
-[Cream Pesto Lentils](Cream Pesto Lentils.md)
+[Cream Pesto Lentils](Cream%20Pesto%20Lentils.md)
 
-[Daal: Lentils and Spinach](Daal- Lentils and Spinach.md)
+[Daal: Lentils and Spinach](Daal-%20Lentils%20and%20Spinach.md)
 
-[Middle Eastern Beef Meatballs](Middle Eastern Beef Meatballs.md#variations)
+[Middle Eastern Beef Meatballs](Middle%20Eastern%20Beef%20Meatballs.md#variations)
 
 Also try [Mujadara](https://mealplans.cooksmarts.com/recipes/2114-mujadara-lentils-rice?sharing=dgqJ2jypywct5qwji4xa7jTH&goal=0_29c14c6c81-f3ee0d5d90-78019497&mc_cid=f3ee0d5d90):
 

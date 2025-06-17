@@ -7,7 +7,7 @@ title: Meal Kit Overview and Recommendations
 
 Here's my summary of various different commercial mail-order meal kits.
 
-also see [Meal Kit Tips](Meal Kit Experience and Insights.md)
+also see [Meal Kit Experience and Insights](Meal%20Kit%20Experience%20and%20Insights.md)
 
 ## Overall suggestions
 
@@ -47,7 +47,7 @@ try [mushroom chicken](https://cdn2.greenchef.com/uploaded/nutritionCard-607483e
 
 ## International / ethnic
 
-### [Cumin Club Indian Meal Kits](Cumin Club Indian Meal Kits.md)
+### [Cumin Club Indian Meal Kits](Cumin%20Club%20Indian%20Meal%20Kits.md)
  [Cumin Club](https://www.thecuminclub.com/) about \$60 for a 10-meal kit. Most of the meals are just-add-water and fresh vegetables. 
 
 2022-08-30 8:51 AM  New Order \$47.92 for 10 meals

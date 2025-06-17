@@ -49,4 +49,4 @@ This is a reasonable substitute for tahini.
 
 ## Examples
 
-from [Middle Eastern Beef Meatballs](Middle Eastern Beef Meatballs.md)
+from [Middle Eastern Beef Meatballs](Middle%20Eastern%20Beef%20Meatballs.md)

@@ -10,7 +10,7 @@ title: Swordfish Orzo
 2023-01-20 7:19 PM
 This time I threw the packets right into the sous vide at 130ºF for 30 minutes. It came out perfectly soft. Because I used the cast iron skillet for something else, I opted to broil it for about 4-5 minutes but it didn't do much.
 
-served with [Artichoke Orzo](Artichoke Orzo.md)
+served with [Artichoke Orzo](Artichoke%20Orzo.md)
 
 
 ***

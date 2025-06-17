@@ -7,7 +7,7 @@ title: Middle Eastern Beef Meatballs
 
 
 
-230613: a makeshift baharat-sauce inspired by [Meatballs in tomato sauce](Meatballs in tomato sauce.md). 
+230613: a makeshift baharat-sauce inspired by [Meatballs in tomato sauce](Meatballs%20in%20tomato%20sauce.md). 
 ![Served with couscous and a tomato baharat sauce](https://sat02pap004files.storage.live.com/y4mk9Gq1ZaEEMNiCIfQUwwfPOj_KNN44ScBu01vM7k4JVUSnsDjDgvG8N4XmJvNx_-ToLj-C8LNrv6NGftygGXibW8grJRRkiDsjqJ1OE2wjtdS_NzGHPTS_mUX7fklakgsa4JqYedUdB63ZIJKTPAqYhQ8ucLX39wBXebvGmX2emp1IW1TPkrbGxh7hlKJgQjb?width=495&height=660&cropmode=none?no.jpg) 
 
 served with [Tomato Watermelon Salad](Salad.md#tomato-watermelon-salad)

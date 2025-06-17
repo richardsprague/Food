@@ -12,24 +12,24 @@ title: 'Summary: Sous Vide'
 
 ### Beef
 
-[Sous Vide: Beef](Sous Vide- Beef.md)
-[Ground Beef](Sous Vide- Beef.md#ground-beef)
-[Ribeye](Sous Vide- Beef.md#ribeye)
+[Sous Vide: Beef](Sous%20Vide-%20Beef.md)
+[Ground Beef](Sous%20Vide-%20Beef.md#ground-beef)
+[Ribeye](Sous%20Vide-%20Beef.md#ribeye)
 
 ### Chicken
 
 [Evernote: Chicken Thighs (Bone In)](https://www.evernote.com/shard/s7/nl/748304/c84de5eb-4866-466a-83dc-4a038aca94c7/)
 
-[Sous Vide: Tamarind Marinated Bone-in Chicken Thighs](Sous Vide- Tamarind Marinated Bone-in Chicken Thighs.md)
+[Sous Vide: Tamarind Marinated Bone-in Chicken Thighs](Sous%20Vide-%20Tamarind%20Marinated%20Bone-in%20Chicken%20Thighs.md)
 
 ### Lamb
-[Sous Vide: Lamb](Sous Vide- Lamb.md)
+[Sous Vide: Lamb](Sous%20Vide-%20Lamb.md)
 
 ### Pork
-[Sous Vide: Pork](Sous Vide- Pork.md)
+[Sous Vide: Pork](Sous%20Vide-%20Pork.md)
 
 ### Fish
-[Sous Vide: Salmon](Sous Vide- Salmon.md)
+[Sous Vide: Salmon](Sous%20Vide-%20Salmon.md)
 
 
 * * *

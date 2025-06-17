@@ -10,7 +10,7 @@ title: Meal Kit Experience and Insights
 
 A few things I learned from meal kits
 
-[Sauces, Glazes, Marinades](Sauces, Glazes, Marinades, Rubs.md)
+[Sauces, Glazes, Marinades](Sauces,%20Glazes,%20Marinades,%20Rubs.md)
 
 
 ## Pasta
@@ -24,9 +24,9 @@ Make a dressing from some red pepper jam mixed with olive oil and some salt and 
 ## Couscous
 Add chopped apples, and maybe some butter-melted sage after you cook it. 
 
-[Sage Brown Squash](Sage Brown Squash.md)
+[Sage Brown Squash](Sage%20Brown%20Squash.md)
 
-[Sausage and Couscous](Sausage and Couscous.md)
+[Sausage and Couscous](Sausage%20and%20Couscous.md)
 
 
 ## Rice
@@ -54,7 +54,7 @@ We bought two orders, one at a steep discount and another at the regular non-dis
 
 Note: I [cancelled our account on 2023-03-28](https://www.evernote.com/shard/s7/nl/748304/bdb96779-afd7-40f4-9c05-3fe3ca612fc8?title=HelloFresh%20order%20history)
 
-[HelloFresh vs. Walmart+](HelloFresh vs. Walmart+.md)
+[HelloFresh vs. Walmart+](HelloFresh%20vs.%20Walmart+.md)
 
 All HelloFresh recipes are published on [their site](https://www.hellofresh.com/recipes)
 
@@ -102,7 +102,7 @@ Small amounts of turkish spice blend add an appealing "middle eastern" flavor.
 
 sauce: hummus with parsley and chives
 
-[Sage Brown Squash](Sage Brown Squash.md)
+[Sage Brown Squash](Sage%20Brown%20Squash.md)
 
 [Middle Eastern Style Chickpea Cavatappi](https://www.hellofresh.com/recipecards/card/middle-eastern-style-chickpea-cavatappi-62cda23fc2254eab2001dbe5-7544d27a.pdf)
 
@@ -113,7 +113,7 @@ Shawarma spice blend gives a nice middle-eastern kick.
 ### Mealballs
 [Tunisian-spiced meatballs](https://www.hellofresh.com/recipecards/card/tunisian-spiced-meatballs-62cd9ed30a7e290ae90740cd-e6c496b3.pdf)
 
-I riffed on this with [Meatballs in tomato sauce](Meatballs in tomato sauce.md)
+I riffed on this with [Meatballs in tomato sauce](Meatballs%20in%20tomato%20sauce.md)
 
 
 [One pot chicken sausage bean soup](https://www.hellofresh.com/recipecards/card/one-pot-chicken-sausage-bean-soup-62f29c891651389a2202a951-70922cd3.pdf)

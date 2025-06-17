@@ -32,7 +32,7 @@ Whisk together the miso, mirin, vinegar, soy sauce, green onions, ginger, and se
 
 Consider paring with 
 
-[Barley.md#dashi-miso-barley](Barley.md#dashi-miso-barley.md)
+[Dashi Miso Barley](Barley.md#dashi-miso-barley)
 
 
 

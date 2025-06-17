@@ -17,7 +17,7 @@ Via [Claude.ai](https://claude.ai/chat/0c465571-aeee-4302-a595-4548cc249160)
 
 ### Ingredients
 
-- 1 loaf [Lekue Silicone Bread Maker.md#sunflower-seed-bread](Lekue%20Silicone%20Bread%20Maker.md#sunflower-seed-bread.md)
+- 1 loaf [sunflower seed bread](Lekue%20Silicone%20Bread%20Maker.md#sunflower-seed-bread)
 - 1 tbsp olive oil
 - 6 oz Spanish chorizo, casing removed, diced  
 - 1 red bell pepper, diced
