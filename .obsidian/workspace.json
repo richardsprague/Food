@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blueberrry-Watermelon-Coconut Drink.md",
+                "file": "Sous Vide- Salmon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blueberrry-Watermelon-Coconut Drink"
+              "title": "Sous Vide- Salmon"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blueberrry-Watermelon-Coconut Drink.md",
+                "file": "Sous Vide- Salmon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Blueberrry-Watermelon-Coconut Drink"
+              "title": "Backlinks for Sous Vide- Salmon"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Sous Vide- Salmon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from Sous Vide- Salmon"
             }
           },
           {
@@ -146,7 +146,8 @@
               "title": "Outline of index"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,6 +165,16 @@
   },
   "active": "a1a833d11b8e8f1b",
   "lastOpenFiles": [
+    "Sous Vide Chicken.md",
+    "assets/sous-vide-chicken-thighs.jpeg",
+    "assets/brussels-sprouts-mexican.png",
+    "assets/pork-belly-kakuni-final.jpg",
+    "assets/sourdough-bread-final.jpeg",
+    "assets/sous-vide-beef-rib-roast.jpeg",
+    "assets/salmon-pan-seared.jpg",
+    "assets/salmon-simple-sauce.jpg",
+    "F3F07BBB-710E-4A02-B50B-0C01DE54167B_1_105_c.jpeg",
+    "Blueberrry-Watermelon-Coconut Drink.md",
     "claude.md",
     "Barley.md",
     "Blueberrry-Watermelon-Coconut Drink_files/libs/quarto-html/tippy.umd.min.js",
@@ -188,18 +199,9 @@
     "Sous vide Rib Roast.md",
     "SousvideBeefRibRoast.jpeg",
     "Artichokes.md",
-    "assets/D5C26BCE-3E16-4602-9C84-FC3441FE894C.jpeg",
     "Beans~.md",
-    "assets/0B5D1BC2-5BCA-49CB-945E-13DB78C35183_1_105_c.jpeg",
     "Moroccan style Chicken.md",
-    "IMG_1117.jpg",
-    "assets/A3BDEED6-E91F-4613-8519-93762143235A_1_201_a 1.jpeg",
-    "assets/8E516341-E092-47B2-B6D6-F42A68D325D6 1.jpeg",
-    "8E516341-E092-47B2-B6D6-F42A68D325D6.jpeg",
-    "A3BDEED6-E91F-4613-8519-93762143235A_1_201_a.jpeg",
-    "assets/8E2605F3-0E40-43C6-B6B8-B5E81FE99EAA_1_201_a.jpeg",
     "index.html.md",
-    "Sous Vide Chicken.md",
     "Chorizo.md",
     "Sous Vide- Pork.md",
     "Meal Kit Experience and Insights.md",
@@ -207,8 +209,6 @@
     "Sourdough Bread.md",
     "Mole.md",
     "Eggplant.md",
-    "Mexican Echiladas.md",
-    "Lekue Silicone Bread Maker.md",
-    "Meal Kit Overview and Recommendations.md"
+    "Mexican Echiladas.md"
   ]
 }

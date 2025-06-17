@@ -5,7 +5,7 @@ title: Brussels Sprouts
 ---
 
 
-![Brussels Sprouts with a Mexican flavor](mexicanFood.png)
+![Brussels Sprouts with a Mexican flavor](assets/brussels-sprouts-mexican.png)
 
 Brussels sprouts are a delicious and nutritious vegetable that can boost your health and flavor your dishes. They are rich in fiber, vitamin C, and vitamin K, and have anti-inflammatory and antioxidant properties. Try them roasted, sautéed, or raw in salads.
 

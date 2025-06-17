@@ -37,7 +37,7 @@ Bake at 500ºF in a pre-heated dutch oven for 30 minutes covered, then 15 min un
 
 The final loaf weighs about 900g (2 pounds)
 
-![Sourdough Bread: Perfect!](F6BC479D-9B68-4259-996E-197EE7D0B39E_1_105_c.jpeg)
+![Sourdough Bread: Perfect!](assets/sourdough-bread-final.jpeg)
 
 
 * * *

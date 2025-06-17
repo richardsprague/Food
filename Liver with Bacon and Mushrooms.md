@@ -3,7 +3,7 @@ categories:
 - chicken
 - recipe
 - liver
-title: ' Liver with Bacon and Mushrooms'
+title: 'Liver with Bacon and Mushrooms'
 ---
 
 

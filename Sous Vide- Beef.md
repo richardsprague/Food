@@ -116,7 +116,7 @@ No seasoning, just dropped the 7 pound rib roast in its original packaging. Star
 Note: it can take a full hour for a large container of water to heat to 136ºF.
 
 Because we had no other containers that fit, I used a storage bucket, leaving the sous vide wand dangling in the water. 
-![[SousvideBeefRibRoast.jpeg]]
+![Sous vide beef rib roast setup](assets/sous-vide-beef-rib-roast.jpeg)
 
 ## Chuck Roast
 2023-05-23

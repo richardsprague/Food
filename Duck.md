@@ -1,7 +1,7 @@
 ---
 categories:
 - duck
-title: 'Duck '
+title: 'Duck'
 ---
 
 Leftover Beijing duck makes a tasty soup stock

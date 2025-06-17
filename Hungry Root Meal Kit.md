@@ -2,7 +2,7 @@
 categories:
 - mealkit
 - food
-title: 'Hungry Root Meal Kit '
+title: 'Hungry Root Meal Kit'
 ---
 
 

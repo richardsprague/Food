@@ -2,7 +2,7 @@
 categories:
 - middleeast
 - ingredient
-title: ' Hummus'
+title: 'Hummus'
 ---
 
 ## Hummus (Plain)

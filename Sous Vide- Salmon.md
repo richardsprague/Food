@@ -71,10 +71,10 @@ inspired by: [Anova Recipe](https://recipes.anovaculinary.com/recipe/sous-vide-
 
 Serve with some wilted spinach and a sauce (in this case, a jar of Williams Sonoma something we had in the refrigerator)
 
-![SalmonSimpleSauce.jpg](SalmonSimpleSauce.jpg)
+![Salmon with simple sauce](assets/salmon-simple-sauce.jpg)
 
 and the salmon came out very well, except I made one mistake: I seared it for so long that it ended up cooking it
 
-![After sous vide, carmelize the exterior for a minute or so on a hot pan](UNADJUSTEDNONRAW_thumb_4ade.jpg)
+![After sous vide, carmelize the exterior for a minute or so on a hot pan](assets/salmon-pan-seared.jpg)
 
 2020-01-07

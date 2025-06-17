@@ -54,7 +54,7 @@ Then 3 hours at 150ºF followed by 5 minutes under the broiler.
 
 Disappointingly chewy, with a rough red interior. 
 
-![Chicken](F3F07BBB-710E-4A02-B50B-0C01DE54167B_1_105_c.jpeg)
+![Sous vide chicken thighs](assets/sous-vide-chicken-thighs.jpeg)
 
 **10-13 Japanese miso style**
 smothered with koji, miso, and mirin, plus honey for 3-4 hours.

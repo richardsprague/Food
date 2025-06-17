@@ -113,6 +113,6 @@ No sake, so I substituted white cooking wine which was okay, but i think sake wo
 
 The secret is that last 10 minutes of cooking *after* you pressure cook the pork.
 
-![IMG_1117.jpg](IMG_1117.jpg)
+![Pork belly kakuni final dish](assets/pork-belly-kakuni-final.jpg)
 
 * * *
