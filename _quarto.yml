@@ -1,0 +1,93 @@
+project:
+  title: "Sprague Recipe Collection"
+  type: website
+  output-dir: docs
+
+website:
+  title: "Sprague Recipe Collection"
+  description: "Our family's tested recipe collection"
+  site-url: "https://richardsprague.com/docs/food"
+  navbar:
+    left:
+      - href: index.md
+        text: Home
+      - text: "Sous Vide"
+        href: "Summary- Sous Vide.md"
+      - text: "Instant Pot"  
+        href: "Instant Pot Bone Broth.md"
+      - text: "Breads"
+        href: "Sourdough Bread.md"
+    right:
+      - icon: github
+        href: https://github.com/richardsprague
+        aria-label: GitHub
+  sidebar:
+    style: docked
+    background: light
+    contents:
+      - section: "Featured Recipes"
+        contents:
+          - "Pressure Cooker Pork Belly (Kakuni).md"
+          - "Sourdough Bread.md"
+          - "Sous Vide Chicken.md"
+          - "Minestrone (Instant Pot).md"
+      - section: "Proteins"
+        contents:
+          - text: "Chicken Recipes"
+            contents:
+              - "Baked Sambal-Spiced Marinated Chicken Thighs.md"
+              - "Blue Apron- Yuzu and Honey-Glazed Chicken Thighs.md"
+              - "Chicken Thighs Morocco and Barley.md"
+              - "Instant Pot Chicken Marsala.md"
+              - "Moroccan style Chicken.md"
+              - "Ricotta Chicken.md"
+              - "Sous Vide Chicken.md"
+          - text: "Seafood"
+            contents:
+              - "Anchovy Salad.md"
+              - "Baked Shrimp.md"
+              - "Blue Apron- Sheet Pan Spicy Maple-Mustard Salmon.md"
+              - "Honey-garlic shrimp.md"
+              - "Miso-Ginger Marinade for Salmon.md"
+              - "Sous Vide- Salmon.md"
+              - "Tilapia with Miso and Scallions.md"
+          - text: "Pork & Beef"
+            contents:
+              - "Filipino Pork Afritada.md"
+              - "Middle Eastern Beef Meatballs.md"
+              - "Pressure Cooker Pork Belly (Kakuni).md"
+              - "Sous Vide- Beef.md"
+              - "Sous Vide- Pork.md"
+      - section: "Vegetarian"
+        contents:
+          - "Black Bean Tofu.md"
+          - "Cream Pesto Lentils.md"
+          - "Daal- Lentils and Spinach.md"
+          - "French Lentils stuffed Poblano.md"
+          - "Hummus.md"
+          - "Mexican Black Bean Chorizo.md"
+      - section: "Breads & Baking"
+        contents:
+          - "Almond Flour Bread.md"
+          - "Corn Tortillas.md"
+          - "Hamburger buns in 40 minutes.md"
+          - "Low Sugar Pumpkin Bread.md"
+          - "Naan.md"
+          - "Sourdough Bread.md"
+          - "Sourdough Focaccia.md"
+
+format:
+  html:
+    theme: minty
+    css: css/normalize.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: true
+  
+execute:
+  freeze: auto

@@ -1,0 +1,35 @@
+project:
+  title: "Sprague Recipe Book"
+  type: book
+
+book:
+  title: "Food"
+  subtitle: "Our favorite recipes"
+  page-footer: "Copyright 2023 Richard Sprague"
+  search: true 
+  author: "Richard Sprague"
+  output-file: food
+  site-url: "https://richardsprague.com/docs/food"
+  sidebar:
+    style: docked
+    background: light
+  downloads: [epub]
+  date: last-modified
+  cover-image: assets/sprague-recipe-cover.jpeg
+  chapters:
+    - index.md
+    - part: "Sous Vide"
+      chapters:
+        - "downloads/Sous Vide Chicken.md"
+        - "downloads/Sous Vide- Beef.md"
+        - "downloads/Sous Vide- Lamb.md"
+        - "downloads/Sous Vide- Pork.md"
+
+format:
+  html:
+    theme: minty
+    css: css/normalize.css
+    standalone: true
+    toc: true
+  epub:
+    css: css/middleman.css

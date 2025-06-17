@@ -1,0 +1,21 @@
+project:
+  title: "Sprague Food Web"
+  type: website
+
+website:
+  title: "Food"
+  site-url: "https://richardsprague.com/docs/food"
+  navbar:
+    left:
+      - href: index.md
+        text: Recipes
+      - href: recipes.qmd
+        text: Categories
+      - about.qmd
+
+format:
+  html:
+    theme: minty
+    css: css/normalize.css
+    standalone: true
+    toc: true
