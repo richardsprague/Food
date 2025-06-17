@@ -1,5 +1,11 @@
 {
-  "useMarkdownLinks": false,
-  "alwaysUpdateLinks": true,
-  "propertiesInDocument": "visible"
+  "userIgnoreFilters": [
+    "docs/**",
+    "css/**",
+    "docs/site_libs/",
+    "docs/site_libs/bootstrap/",
+    "docs/assets/",
+    "docs/site_libs/quarto-html/",
+    "docs/assets/*"
+  ]
 }
