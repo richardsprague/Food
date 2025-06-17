@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "7c09aaecb3033ce2",
+    "type": "split",
+    "children": [
+      {
+        "id": "fffcda41c206e3df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a1a833d11b8e8f1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blueberrry-Watermelon-Coconut Drink.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Blueberrry-Watermelon-Coconut Drink"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bd957012fa671271",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf00668df83f541c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05c45fd67c1abbf9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7c78555c2f61f629",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "46edf900b3374871",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "773a0e8383f34daf",
+    "type": "split",
+    "children": [
+      {
+        "id": "875e0bde1e48343d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1f493ed04e0de7f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Blueberrry-Watermelon-Coconut Drink.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Blueberrry-Watermelon-Coconut Drink"
+            }
+          },
+          {
+            "id": "57e0f70853940847",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
+            }
+          },
+          {
+            "id": "531c115ec5c74311",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "89fbe8e98b8dfc97",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a1a833d11b8e8f1b",
+  "lastOpenFiles": [
+    "claude.md",
+    "Barley.md",
+    "Blueberrry-Watermelon-Coconut Drink_files/libs/quarto-html/tippy.umd.min.js",
+    "Blueberrry-Watermelon-Coconut Drink_files/libs/quarto-html/tippy.css",
+    "Blueberrry-Watermelon-Coconut Drink_files/libs/quarto-html/quarto.js",
+    "Blueberrry-Watermelon-Coconut Drink_files/libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css",
+    "Blueberrry-Watermelon-Coconut Drink_files/libs/quarto-html/popper.min.js",
+    "Blueberrry-Watermelon-Coconut Drink_files/libs/quarto-html/anchor.min.js",
+    "Blueberrry-Watermelon-Coconut Drink_files/libs/clipboard/clipboard.min.js",
+    "Blueberrry-Watermelon-Coconut Drink_files/libs/bootstrap/bootstrap.min.js",
+    "Blueberrry-Watermelon-Coconut Drink_files/libs/bootstrap/bootstrap-icons.woff",
+    "Blueberrry-Watermelon-Coconut Drink_files/libs/bootstrap/bootstrap-icons.css",
+    "ChatGPT Recipe Prompt.md",
+    "Instant Pot Chicken Marsala.md",
+    "Instant Pot Bone Broth.md",
+    "index.md",
+    "Untitled.md",
+    "Almond Flour Bread.md",
+    "Sous Vide- Beef.md",
+    "SalmonSimpleSauce.jpg",
+    "Sous Vide- Salmon.md",
+    "Sous vide Rib Roast.md",
+    "SousvideBeefRibRoast.jpeg",
+    "Artichokes.md",
+    "assets/D5C26BCE-3E16-4602-9C84-FC3441FE894C.jpeg",
+    "Beans~.md",
+    "assets/0B5D1BC2-5BCA-49CB-945E-13DB78C35183_1_105_c.jpeg",
+    "Moroccan style Chicken.md",
+    "IMG_1117.jpg",
+    "assets/A3BDEED6-E91F-4613-8519-93762143235A_1_201_a 1.jpeg",
+    "assets/8E516341-E092-47B2-B6D6-F42A68D325D6 1.jpeg",
+    "8E516341-E092-47B2-B6D6-F42A68D325D6.jpeg",
+    "A3BDEED6-E91F-4613-8519-93762143235A_1_201_a.jpeg",
+    "assets/8E2605F3-0E40-43C6-B6B8-B5E81FE99EAA_1_201_a.jpeg",
+    "index.html.md",
+    "Sous Vide Chicken.md",
+    "Chorizo.md",
+    "Sous Vide- Pork.md",
+    "Meal Kit Experience and Insights.md",
+    "Pressure Cooker Pork Belly (Kakuni).md",
+    "Sourdough Bread.md",
+    "Mole.md",
+    "Eggplant.md",
+    "Mexican Echiladas.md",
+    "Lekue Silicone Bread Maker.md",
+    "Meal Kit Overview and Recommendations.md"
+  ]
+}
