@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Black Bean Tofu.md",
+                "file": "About this Vault.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Black Bean Tofu"
+              "title": "About this Vault"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Black Bean Tofu.md",
+                "file": "About this Vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Black Bean Tofu"
+              "title": "Backlinks for About this Vault"
             }
           },
           {
@@ -169,6 +169,7 @@
   },
   "active": "52decbaf851ddfe8",
   "lastOpenFiles": [
+    "content/Black Bean Tofu.md",
     "content/Beans.md",
     "content/Almond Flour Bread.md",
     "assets/templates/Publish.md",
@@ -212,7 +213,6 @@
     "content/Chicken.md",
     "content/Chicken Thighs Morocco and Barley.md",
     "content/Ricotta Chicken.md",
-    "content/Black Bean Tofu.md",
     "content/Naan.md",
     "content/Mole.md"
   ]

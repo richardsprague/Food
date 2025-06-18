@@ -56,14 +56,18 @@ if (os.platform() !== 'win32') {
 }
 
 // Execute the script
-execFile(scriptPath, { cwd: vaultPath, timeout: 30000 }, (error, stdout, stderr) => {
+execFile(scriptPath, { cwd: vaultPath, timeout: 60000 }, (error, stdout, stderr) => {
     if (error) {
         new Notice(`❌ Publish failed: ${error.message}`);
-        console.error('Publish error:', stderr);
+        console.error('Publish error:', error);
+        console.error('stderr:', stderr);
         return;
     }
-    if (stderr) {
+    // Quarto outputs progress to stderr, so only show as warning if it looks like an actual error
+    if (stderr && !stderr.includes('[') && !stderr.includes('/')  && !stderr.includes('.md')) {
         console.warn('Publish warnings:', stderr);
+    } else if (stderr) {
+        console.log('Quarto build progress:', stderr);
     }
     new Notice('✅ Successfully published to GitHub!');
     console.log('Publish output:', stdout);

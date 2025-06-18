@@ -6,7 +6,7 @@ echo "🚀 Starting publish process..."
 cd .. || exit 1
 
 echo "🏗️  Building with Quarto..."
-quarto render
+/usr/local/bin/quarto render
 
 echo "📤 Pushing to GitHub..."
 git add .
