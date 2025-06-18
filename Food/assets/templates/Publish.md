@@ -12,49 +12,14 @@ new Notice('Starting publish...');
 new Notice('📤 Exporting /content to ../export...');
 
 try {
-    // Use the Markdown Export community plugin by bingryan
-    const markdownExportPlugin = app.plugins.plugins['obsidian-markdown-export-plugin'];
-    if (!markdownExportPlugin) {
-        new Notice('⚠️ Markdown Export plugin not found. Please install and enable it.');
-        console.log('Available plugins:', Object.keys(app.plugins.plugins));
-        return;
-    }
+    // Simple export command execution
+    await app.commands.executeCommandById('obsidian-markdown-export-plugin:export-folder');
+    new Notice('✅ Export command executed');
     
-    console.log('Markdown Export plugin found, attempting export...');
-    console.log('Available commands:', app.commands.listCommands().filter(cmd => cmd.id.includes('export')).map(cmd => cmd.id));
-    
-    // Try to select the content folder first
-    const contentFolder = app.vault.getAbstractFileByPath('content');
-    if (contentFolder) {
-        app.workspace.getLeaf().view.file = contentFolder;
-    }
-    
-    // Try different export commands
-    let exportResult = false;
-    const exportCommands = [
-        'obsidian-markdown-export-plugin:export-folder',
-        'obsidian-markdown-export-plugin:export-current-folder',
-        'obsidian-markdown-export-plugin:export'
-    ];
-    
-    for (const cmdId of exportCommands) {
-        try {
-            exportResult = await app.commands.executeCommandById(cmdId);
-            console.log(`Command ${cmdId} result:`, exportResult);
-            if (exportResult !== false) break;
-        } catch (e) {
-            console.log(`Command ${cmdId} failed:`, e);
-        }
-    }
-    
-    // Wait a moment for the export to complete
-    await new Promise(resolve => setTimeout(resolve, 3000));
-    
-    new Notice('✅ Content export attempted - check ../export directory');
+    // Wait for export to complete
+    await new Promise(resolve => setTimeout(resolve, 2000));
 } catch (exportError) {
     new Notice('⚠️ Export failed - continuing with publish');
-    console.error('Export error:', exportError);
-    // Don't return here - continue with the publish even if export fails
 }
 
 // Get and sanitize vault path
