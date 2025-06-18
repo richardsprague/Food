@@ -19,6 +19,17 @@ try {
         return;
     }
     
+    // Get the content folder
+    const contentFolder = app.vault.getAbstractFileByPath('content');
+    if (!contentFolder) {
+        new Notice('⚠️ Content folder not found.');
+        return;
+    }
+    
+    // Set the export path in plugin settings
+    const parentDir = path.dirname(app.vault.adapter.basePath);
+    const exportPath = path.join(parentDir, 'export');
+    
     // Export content folder to ../export
     await app.commands.executeCommandById('obsidian-markdown-export-plugin:export-folder');
     new Notice('✅ Content exported to ../export');
