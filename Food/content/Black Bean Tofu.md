@@ -7,7 +7,7 @@ title: Black Bean Tofu
 image: BA6CEEE1-EC00-425D-BF3C-CA69D2C18452_1_105_c.jpeg
 ---
 
-One of our favorite Chinese-inspired meals. Easy to make, last-minute, and goes well with other Chinese foods, especially coconut rice.
+One of our favorite Chinese-inspired meals. Easy to make, quick, and goes well with other Chinese foods, especially coconut rice.
 
 ## Preparation
 

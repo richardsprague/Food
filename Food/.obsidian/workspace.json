@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "About this Vault.md",
+                "file": "content/Black Bean Tofu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About this Vault"
+              "title": "Black Bean Tofu"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "About this Vault.md",
+                "file": "content/Black Bean Tofu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for About this Vault"
+              "title": "Backlinks for Black Bean Tofu"
             }
           },
           {
@@ -169,6 +169,8 @@
   },
   "active": "52decbaf851ddfe8",
   "lastOpenFiles": [
+    "content/Beans.md",
+    "content/Almond Flour Bread.md",
     "assets/templates/Publish.md",
     "About this Vault.md",
     "content/Harissa-Spiced Salmon with Pearl Couscous and Roasted Broccoli.md",
@@ -205,14 +207,12 @@
     "docs/assets",
     "content/Instant Pot Bone Broth.md",
     "content/Hungry Root Meal Kit.md",
-    "content/Almond Flour Bread.md",
     "content/Corn Tortillas.md",
     "content/Instant Pot Chicken Thighs with Tomatillos.md",
     "content/Chicken.md",
     "content/Chicken Thighs Morocco and Barley.md",
     "content/Ricotta Chicken.md",
     "content/Black Bean Tofu.md",
-    "content/Beans.md",
     "content/Naan.md",
     "content/Mole.md"
   ]
