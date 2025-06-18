@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "7c09aaecb3033ce2",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6b5583740f7bd66",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6792faf5a6da2229",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/Sous Vide- Beef.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sous Vide- Beef"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bd957012fa671271",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf00668df83f541c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05c45fd67c1abbf9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7c78555c2f61f629",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "46edf900b3374871",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "773a0e8383f34daf",
+    "type": "split",
+    "children": [
+      {
+        "id": "875e0bde1e48343d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1f493ed04e0de7f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/Sous Vide- Beef.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Sous Vide- Beef"
+            }
+          },
+          {
+            "id": "57e0f70853940847",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/Sous Vide Chicken.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Sous Vide Chicken"
+            }
+          },
+          {
+            "id": "531c115ec5c74311",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "89fbe8e98b8dfc97",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/Sous Vide- Beef.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Sous Vide- Beef"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "cmdr:Templater: Open insert template modal Publish to Github": false
+    }
+  },
+  "active": "6792faf5a6da2229",
+  "lastOpenFiles": [
+    "assets/0B5D1BC2-5BCA-49CB-945E-13DB78C35183_1_105_c.jpeg",
+    "assets/templates/Publish.md",
+    "content/Sous Vide Chicken.md",
+    "assets/templates",
+    "assets/sousvide-chicken-mushy.jpeg",
+    "assets/sous-vide-chicken-thighs.jpeg",
+    "Untitled.md",
+    "README.md",
+    "docs/search.json",
+    "docs/robots.txt",
+    "docs/sitemap.xml",
+    "docs/css/normalize.css",
+    "docs/css",
+    "docs/assets/images/sproutedBlackBeans.png",
+    "docs/assets/images/porkBellyCooking.jpg",
+    "docs/assets/sous-vide-beef-rib-roast.jpeg",
+    "docs/assets/sprague-recipe-cover.jpeg",
+    "docs/assets/sous-vide-chicken-thighs.jpeg",
+    "docs/assets/sourdough-bread-final.jpeg",
+    "docs/assets/salmon-simple-sauce.jpg",
+    "docs/assets/brussels-sprouts-mexican.png",
+    "docs/assets/images",
+    "docs/assets",
+    "docs/site_libs/quarto-search/quarto-search.js",
+    "docs/site_libs/quarto-search/fuse.min.js",
+    "content/Instant Pot Bone Broth.md",
+    "content/Hungry Root Meal Kit.md",
+    "content/Almond Flour Bread.md",
+    "content/Corn Tortillas.md",
+    "content/Sous Vide- Beef.md",
+    "content/Instant Pot Chicken Thighs with Tomatillos.md",
+    "content/Chicken.md",
+    "content/Chicken Thighs Morocco and Barley.md",
+    "content/Ricotta Chicken.md",
+    "content/Black Bean Tofu.md",
+    "content/Beans.md",
+    "content/Naan.md",
+    "content/Mole.md",
+    "content/Mexican Echiladas.md",
+    "content/Mirepoix Tips.md",
+    "content/Middle Eastern Beef Meatballs.md",
+    "content/Leeks.md",
+    "content/Leek and potato soup.md",
+    "content/Hummus.md",
+    "content/Lentils.md",
+    "content/Blue Apron- Sheet Pan Spicy Maple-Mustard Salmon.md"
+  ]
+}

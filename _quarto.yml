@@ -5,13 +5,13 @@ project:
   
   # GitHub Pages configuration
   render:
-    - "*.md"
-    - "content/*.md"
-    - "!CLAUDE.md"
-    - "!content/claude.md"
+    - "index.md"
+    - "export/*.md"
+    - "!export/CLAUDE.md"
+    - "!export/claude.md"
   
   resources:
-    - "assets/"
+    - "export/assets/"
     - ".nojekyll"
 
 website:
@@ -25,11 +25,11 @@ website:
       - href: index.md
         text: Home
       - text: "Sous Vide"
-        href: "content/Summary- Sous Vide.md"
+        href: "export/Summary- Sous Vide.md"
       - text: "Instant Pot"  
-        href: "content/Instant Pot Bone Broth.md"
+        href: "export/Instant Pot Bone Broth.md"
       - text: "Breads"
-        href: "content/Sourdough Bread.md"
+        href: "export/Sourdough Bread.md"
     right:
       - icon: github
         href: https://github.com/richardsprague
@@ -40,54 +40,54 @@ website:
     contents:
       - section: "Featured Recipes"
         contents:
-          - "content/Pressure Cooker Pork Belly (Kakuni).md"
-          - "content/Sourdough Bread.md"
-          - "content/Sous Vide Chicken.md"
-          - "content/Minestrone (Instant Pot).md"
+          - "export/Pressure Cooker Pork Belly (Kakuni).md"
+          - "export/Sourdough Bread.md"
+          - "export/Sous Vide Chicken.md"
+          - "export/Minestrone (Instant Pot).md"
       - section: "Proteins"
         contents:
           - text: "Chicken Recipes"
             contents:
-              - "content/Baked Sambal-Spiced Marinated Chicken Thighs.md"
-              - "content/Blue Apron- Yuzu and Honey-Glazed Chicken Thighs.md"
-              - "content/Chicken Thighs Morocco and Barley.md"
-              - "content/Instant Pot Chicken Marsala.md"
-              - "content/Moroccan style Chicken.md"
-              - "content/Ricotta Chicken.md"
-              - "content/Sous Vide Chicken.md"
+              - "export/Baked Sambal-Spiced Marinated Chicken Thighs.md"
+              - "export/Blue Apron- Yuzu and Honey-Glazed Chicken Thighs.md"
+              - "export/Chicken Thighs Morocco and Barley.md"
+              - "export/Instant Pot Chicken Marsala.md"
+              - "export/Moroccan style Chicken.md"
+              - "export/Ricotta Chicken.md"
+              - "export/Sous Vide Chicken.md"
           - text: "Seafood"
             contents:
-              - "content/Anchovy Salad.md"
-              - "content/Baked Shrimp.md"
-              - "content/Blue Apron- Sheet Pan Spicy Maple-Mustard Salmon.md"
-              - "content/Honey-garlic shrimp.md"
-              - "content/Miso-Ginger Marinade for Salmon.md"
-              - "content/Sous Vide- Salmon.md"
-              - "content/Tilapia with Miso and Scallions.md"
+              - "export/Anchovy Salad.md"
+              - "export/Baked Shrimp.md"
+              - "export/Blue Apron- Sheet Pan Spicy Maple-Mustard Salmon.md"
+              - "export/Honey-garlic shrimp.md"
+              - "export/Miso-Ginger Marinade for Salmon.md"
+              - "export/Sous Vide- Salmon.md"
+              - "export/Tilapia with Miso and Scallions.md"
           - text: "Pork & Beef"
             contents:
-              - "content/Filipino Pork Afritada.md"
-              - "content/Middle Eastern Beef Meatballs.md"
-              - "content/Pressure Cooker Pork Belly (Kakuni).md"
-              - "content/Sous Vide- Beef.md"
-              - "content/Sous Vide- Pork.md"
+              - "export/Filipino Pork Afritada.md"
+              - "export/Middle Eastern Beef Meatballs.md"
+              - "export/Pressure Cooker Pork Belly (Kakuni).md"
+              - "export/Sous Vide- Beef.md"
+              - "export/Sous Vide- Pork.md"
       - section: "Vegetarian"
         contents:
-          - "content/Black Bean Tofu.md"
-          - "content/Cream Pesto Lentils.md"
-          - "content/Daal- Lentils and Spinach.md"
-          - "content/French Lentils stuffed Poblano.md"
-          - "content/Hummus.md"
-          - "content/Mexican Black Bean Chorizo.md"
+          - "export/Black Bean Tofu.md"
+          - "export/Cream Pesto Lentils.md"
+          - "export/Daal- Lentils and Spinach.md"
+          - "export/French Lentils stuffed Poblano.md"
+          - "export/Hummus.md"
+          - "export/Mexican Black Bean Chorizo.md"
       - section: "Breads & Baking"
         contents:
-          - "content/Almond Flour Bread.md"
-          - "content/Corn Tortillas.md"
-          - "content/Hamburger buns in 40 minutes.md"
-          - "content/Low Sugar Pumpkin Bread.md"
-          - "content/Naan.md"
-          - "content/Sourdough Bread.md"
-          - "content/Sourdough Focaccia.md"
+          - "export/Almond Flour Bread.md"
+          - "export/Corn Tortillas.md"
+          - "export/Hamburger buns in 40 minutes.md"
+          - "export/Low Sugar Pumpkin Bread.md"
+          - "export/Naan.md"
+          - "export/Sourdough Bread.md"
+          - "export/Sourdough Focaccia.md"
 
 format:
   html:
