@@ -16,27 +16,24 @@ try {
     const markdownExportPlugin = app.plugins.plugins['obsidian-markdown-export-plugin'];
     if (!markdownExportPlugin) {
         new Notice('⚠️ Markdown Export plugin not found. Please install and enable it.');
+        console.log('Available plugins:', Object.keys(app.plugins.plugins));
         return;
     }
     
-    // Get the content folder
-    const contentFolder = app.vault.getAbstractFileByPath('content');
-    if (!contentFolder) {
-        new Notice('⚠️ Content folder not found.');
-        return;
-    }
-    
-    // Set the export path in plugin settings
-    const parentDir = path.dirname(app.vault.adapter.basePath);
-    const exportPath = path.join(parentDir, 'export');
+    console.log('Markdown Export plugin found, attempting export...');
     
     // Export content folder to ../export
-    await app.commands.executeCommandById('obsidian-markdown-export-plugin:export-folder');
-    new Notice('✅ Content exported to ../export');
+    const exportResult = await app.commands.executeCommandById('obsidian-markdown-export-plugin:export-folder');
+    console.log('Export command result:', exportResult);
+    
+    // Wait a moment for the export to complete
+    await new Promise(resolve => setTimeout(resolve, 2000));
+    
+    new Notice('✅ Content export attempted - check ../export directory');
 } catch (exportError) {
-    new Notice('⚠️ Could not auto-export. Please manually export /content folder to ../export directory.');
+    new Notice('⚠️ Export failed - continuing with publish');
     console.error('Export error:', exportError);
-    return;
+    // Don't return here - continue with the publish even if export fails
 }
 
 // Get and sanitize vault path
