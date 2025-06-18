@@ -21,13 +21,34 @@ try {
     }
     
     console.log('Markdown Export plugin found, attempting export...');
+    console.log('Available commands:', app.commands.listCommands().filter(cmd => cmd.id.includes('export')).map(cmd => cmd.id));
     
-    // Export content folder to ../export
-    const exportResult = await app.commands.executeCommandById('obsidian-markdown-export-plugin:export-folder');
-    console.log('Export command result:', exportResult);
+    // Try to select the content folder first
+    const contentFolder = app.vault.getAbstractFileByPath('content');
+    if (contentFolder) {
+        app.workspace.getLeaf().view.file = contentFolder;
+    }
+    
+    // Try different export commands
+    let exportResult = false;
+    const exportCommands = [
+        'obsidian-markdown-export-plugin:export-folder',
+        'obsidian-markdown-export-plugin:export-current-folder',
+        'obsidian-markdown-export-plugin:export'
+    ];
+    
+    for (const cmdId of exportCommands) {
+        try {
+            exportResult = await app.commands.executeCommandById(cmdId);
+            console.log(`Command ${cmdId} result:`, exportResult);
+            if (exportResult !== false) break;
+        } catch (e) {
+            console.log(`Command ${cmdId} failed:`, e);
+        }
+    }
     
     // Wait a moment for the export to complete
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    await new Promise(resolve => setTimeout(resolve, 3000));
     
     new Notice('✅ Content export attempted - check ../export directory');
 } catch (exportError) {
