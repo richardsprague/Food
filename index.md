@@ -43,16 +43,16 @@ Specialized equipment documentation (Instant Pot, sous vide, etc.)
 
 ### Standout Dishes We Make Regularly
 
-- **[Pressure Cooker Pork Belly (Kakuni)](content/Pressure%20Cooker%20Pork%20Belly%20(Kakuni).md)** - Japanese-inspired comfort food ready in 75 minutes
-- **[Sourdough Bread](content/Sourdough%20Bread.md)** - Reliable sourdough with detailed technique notes
-- **[Sous Vide Chicken](content/Sous%20Vide%20Chicken.md)** - Master class in perfect chicken with temperature guides
-- **[Minestrone (Instant Pot)](content/Minestrone%20(Instant%20Pot).md)** - Hearty soup that's become a weekly staple
-- **[Baked Sambal-Spiced Marinated Chicken Thighs](content/Baked%20Sambal-Spiced%20Marinated%20Chicken%20Thighs.md)** - Bold flavors, simple execution
+- **[Pressure Cooker Pork Belly (Kakuni)](export/Pressure%20Cooker%20Pork%20Belly%20(Kakuni).md)** - Japanese-inspired comfort food ready in 75 minutes
+- **[Sourdough Bread](export/Sourdough%20Bread.md)** - Reliable sourdough with detailed technique notes
+- **[Sous Vide Chicken](export/Sous%20Vide%20Chicken.md)** - Master class in perfect chicken with temperature guides
+- **[Minestrone (Instant Pot)](export/Minestrone%20(Instant%20Pot).md)** - Hearty soup that's become a weekly staple
+- **[Baked Sambal-Spiced Marinated Chicken Thighs](export/Baked%20Sambal-Spiced%20Marinated%20Chicken%20Thighs.md)** - Bold flavors, simple execution
 
 ## Browse by Category
 
 ### By Cooking Method
-- **[Sous Vide Techniques](content/Summary-%20Sous%20Vide.md)** - Complete guide to sous vide cooking
+- **[Sous Vide Techniques](export/Summary-%20Sous%20Vide.md)** - Complete guide to sous vide cooking
 - **Instant Pot Recipes** - Pressure cooker favorites for quick meals
 - **Bread Making** - Sourdough, quick breads, and specialty loaves
 

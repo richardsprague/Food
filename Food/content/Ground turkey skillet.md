@@ -30,4 +30,5 @@ Serve topped with a cream sauce and avocado.
 <img src="https://www.skinnytaste.com/wp-content/uploads/2021/06/Santa-Fe-Turkey-Zucchini-Bowls_-3.jpg" width="300" />
 
 
-from  [Notes 221112 Saturday](/index.html)
+from  [Notes 221112 Saturday]
+

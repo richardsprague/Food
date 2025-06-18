@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Sous Vide- Beef.md",
+                "file": "assets/templates/Publish.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sous Vide- Beef"
+              "title": "Publish"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Sous Vide- Beef.md",
+                "file": "assets/templates/Publish.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sous Vide- Beef"
+              "title": "Backlinks for Publish"
             }
           },
           {
@@ -140,23 +140,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Sous Vide- Beef.md",
+                "file": "assets/templates/Publish.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sous Vide- Beef"
+              "title": "Outline of Publish"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -166,8 +167,16 @@
       "cmdr:Templater: Open insert template modal Publish to Github": false
     }
   },
-  "active": "05c45fd67c1abbf9",
+  "active": "6792faf5a6da2229",
   "lastOpenFiles": [
+    "content/Summary- Sous Vide.md",
+    "Equipment Mastery.md",
+    "Quick Dinners.md",
+    "content/Ground turkey skillet.md",
+    "index.html.md",
+    "content/Honey-garlic shrimp.md",
+    "content/Sous Vide- Beef.md",
+    "Weekend Projects.md",
     "publish-script.sh",
     "publish-to-github.sh",
     "assets/0B5D1BC2-5BCA-49CB-945E-13DB78C35183_1_105_c.jpeg",
@@ -192,12 +201,10 @@
     "docs/assets/salmon-simple-sauce.jpg",
     "docs/assets/images",
     "docs/assets",
-    "docs/site_libs/quarto-search/quarto-search.js",
     "content/Instant Pot Bone Broth.md",
     "content/Hungry Root Meal Kit.md",
     "content/Almond Flour Bread.md",
     "content/Corn Tortillas.md",
-    "content/Sous Vide- Beef.md",
     "content/Instant Pot Chicken Thighs with Tomatillos.md",
     "content/Chicken.md",
     "content/Chicken Thighs Morocco and Barley.md",
@@ -207,12 +214,6 @@
     "content/Naan.md",
     "content/Mole.md",
     "content/Mexican Echiladas.md",
-    "content/Mirepoix Tips.md",
-    "content/Middle Eastern Beef Meatballs.md",
-    "content/Leeks.md",
-    "content/Leek and potato soup.md",
-    "content/Hummus.md",
-    "content/Lentils.md",
-    "content/Blue Apron- Sheet Pan Spicy Maple-Mustard Salmon.md"
+    "content/Mirepoix Tips.md"
   ]
 }
