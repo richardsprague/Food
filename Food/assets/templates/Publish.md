@@ -8,6 +8,26 @@ const { Notice } = tp.obsidian;
 // Notify user that publishing is starting
 new Notice('Starting publish...');
 
+// First, export /content folder to ../export using Markdown Export plugin
+new Notice('📤 Exporting /content to ../export...');
+
+try {
+    // Use the Markdown Export community plugin by bingryan
+    const markdownExportPlugin = app.plugins.plugins['obsidian-markdown-export-plugin'];
+    if (!markdownExportPlugin) {
+        new Notice('⚠️ Markdown Export plugin not found. Please install and enable it.');
+        return;
+    }
+    
+    // Export content folder to ../export
+    await app.commands.executeCommandById('obsidian-markdown-export-plugin:export-folder');
+    new Notice('✅ Content exported to ../export');
+} catch (exportError) {
+    new Notice('⚠️ Could not auto-export. Please manually export /content folder to ../export directory.');
+    console.error('Export error:', exportError);
+    return;
+}
+
 // Get and sanitize vault path
 const vaultPath = path.normalize(app.vault.adapter.basePath);
 if (!vaultPath || vaultPath.includes('..')) {
@@ -26,9 +46,13 @@ if (!fs.existsSync(scriptPath)) {
 }
 
 // Check if script is executable (skip on Windows)
-if (os.platform() !== 'win32' && !fs.accessSync(scriptPath, fs.constants.X_OK)) {
-    new Notice('❌ Publish script is not executable');
-    return;
+if (os.platform() !== 'win32') {
+    try {
+        fs.accessSync(scriptPath, fs.constants.X_OK);
+    } catch (error) {
+        new Notice('❌ Publish script is not executable');
+        return;
+    }
 }
 
 // Execute the script

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f6b5583740f7bd66",
+        "id": "61e1b87ce119b7ca",
         "type": "tabs",
         "children": [
           {
-            "id": "6792faf5a6da2229",
+            "id": "52decbaf851ddfe8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/templates/Publish.md",
+                "file": "About this Vault.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Publish"
+              "title": "About this Vault"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/templates/Publish.md",
+                "file": "About this Vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Publish"
+              "title": "Backlinks for About this Vault"
             }
           },
           {
@@ -167,25 +167,28 @@
       "cmdr:Templater: Open insert template modal Publish to Github": false
     }
   },
-  "active": "6792faf5a6da2229",
+  "active": "52decbaf851ddfe8",
   "lastOpenFiles": [
+    "assets/templates/Publish.md",
+    "About this Vault.md",
+    "content/Harissa-Spiced Salmon with Pearl Couscous and Roasted Broccoli.md",
+    "content/Salmon.md",
+    "assets/SalmonPankoCouscous.jpeg",
+    "Quick Dinners.md",
+    "Weekend Projects.md",
     "content/Summary- Sous Vide.md",
     "Equipment Mastery.md",
-    "Quick Dinners.md",
     "content/Ground turkey skillet.md",
     "index.html.md",
     "content/Honey-garlic shrimp.md",
     "content/Sous Vide- Beef.md",
-    "Weekend Projects.md",
     "publish-script.sh",
     "publish-to-github.sh",
     "assets/0B5D1BC2-5BCA-49CB-945E-13DB78C35183_1_105_c.jpeg",
-    "assets/templates/Publish.md",
     "content/Sous Vide Chicken.md",
     "assets/templates",
     "assets/sousvide-chicken-mushy.jpeg",
     "assets/sous-vide-chicken-thighs.jpeg",
-    "Untitled.md",
     "README.md",
     "docs/search.json",
     "docs/robots.txt",
@@ -198,7 +201,6 @@
     "docs/assets/sprague-recipe-cover.jpeg",
     "docs/assets/sous-vide-chicken-thighs.jpeg",
     "docs/assets/sourdough-bread-final.jpeg",
-    "docs/assets/salmon-simple-sauce.jpg",
     "docs/assets/images",
     "docs/assets",
     "content/Instant Pot Bone Broth.md",
@@ -212,8 +214,6 @@
     "content/Black Bean Tofu.md",
     "content/Beans.md",
     "content/Naan.md",
-    "content/Mole.md",
-    "content/Mexican Echiladas.md",
-    "content/Mirepoix Tips.md"
+    "content/Mole.md"
   ]
 }

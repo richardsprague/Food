@@ -1,0 +1,135 @@
+{
+	"folders": [
+		{
+			"name": "📝 Recipe Collection",
+			"path": "."
+		},
+		{
+			"name": "🍳 Obsidian Vault",
+			"path": "./Food"
+		},
+		{
+			"name": "📤 Export Target",
+			"path": "./export"
+		},
+		{
+			"name": "🌐 Published Website",
+			"path": "./docs"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.DS_Store": true,
+			"**/.git": false,
+			"**/.quarto": true,
+			"**/node_modules": true,
+			"Food/.obsidian/workspace*.json": true,
+			"Food/.obsidian/graph.json": true,
+			"Food/.obsidian/canvas.json": true
+		},
+		"search.exclude": {
+			"docs/**": true,
+			"**/.quarto/**": true,
+			"Food/.obsidian/plugins/**/data.json": true
+		},
+		"markdown.preview.doubleClickToSwitchToEditor": false,
+		"markdown.preview.markEditorSelection": true,
+		"files.defaultLanguage": "markdown",
+		"files.associations": {
+			"*.md": "markdown",
+			"_quarto.yml": "yaml",
+			"*.qmd": "quarto"
+		},
+		"workbench.tree.indent": 20,
+		"explorer.fileNesting.enabled": true,
+		"explorer.fileNesting.patterns": {
+			"*.md": "${capture}.html"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"yzhang.markdown-all-in-one",
+			"quarto.quarto",
+			"davidanson.vscode-markdownlint",
+			"bierner.markdown-preview-github-styles",
+			"esbenp.prettier-vscode",
+			"ms-vscode.vscode-json"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "🔧 Quarto: Render Website",
+				"type": "shell",
+				"command": "quarto",
+				"args": ["render"],
+				"group": "build",
+				"presentation": {
+					"echo": true,
+					"reveal": "always",
+					"focus": false,
+					"panel": "shared"
+				},
+				"problemMatcher": []
+			},
+			{
+				"label": "👀 Quarto: Preview Website",
+				"type": "shell",
+				"command": "quarto",
+				"args": ["preview"],
+				"group": "build",
+				"presentation": {
+					"echo": true,
+					"reveal": "always",
+					"focus": false,
+					"panel": "shared"
+				},
+				"problemMatcher": [],
+				"isBackground": true
+			},
+			{
+				"label": "📤 Git: Commit and Push",
+				"type": "shell",
+				"command": "git",
+				"args": ["add", ".", "&&", "git", "commit", "-m", "Update recipes", "&&", "git", "push"],
+				"group": "build",
+				"presentation": {
+					"echo": true,
+					"reveal": "always",
+					"focus": false,
+					"panel": "shared"
+				},
+				"problemMatcher": []
+			},
+			{
+				"label": "🚀 Full Publish Workflow",
+				"dependsOrder": "sequence",
+				"dependsOn": [
+					"🔧 Quarto: Render Website",
+					"📤 Git: Commit and Push"
+				],
+				"group": {
+					"kind": "build",
+					"isDefault": true
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "🌐 Open Website",
+				"type": "node",
+				"request": "launch",
+				"program": "${workspaceFolder}/docs/index.html",
+				"serverReadyAction": {
+					"pattern": "Local:\\s+(https?://\\S+)",
+					"uriFormat": "%s",
+					"action": "openExternally"
+				}
+			}
+		]
+	}
+}
