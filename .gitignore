@@ -1,1 +1,32 @@
+# Quarto build files
 /.quarto/
+_freeze/
+
+# Obsidian workspace files (user-specific, don't commit)
+Food/.obsidian/workspace.json
+Food/.obsidian/workspace-mobile.json
+
+# Obsidian cache files
+Food/.obsidian/plugins/*/data.json
+Food/.obsidian/graph.json
+Food/.obsidian/canvas.json
+
+# macOS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Export directory (intermediate files, not needed in git)
+export/
+
+# Local development
+.env

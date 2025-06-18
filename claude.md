@@ -1,33 +1,65 @@
 # Claude Code Instructions for Recipe Collection
 
-## Current Project Structure
+## Current Project Structure (Updated 2025-06-18)
 ```
-recipes/
-├── claude.md                           # This file
-├── Almond Flour Bread.md               # Individual recipe files
-├── Anchovy Salad.md
-├── Artichoke Orzo.md
-├── Artichokes.md
-├── Baked Sambal-Spiced Marinated Chicken Thighs.md
-├── ... (all other recipe .md files)
-└── assets/                             # Images and attachments
-    ├── recipe-photo-1.jpg
-    ├── recipe-photo-2.png
-    └── ...
+Food/                                    # Repository root
+├── _quarto.yml                         # Quarto configuration (points to /export)
+├── index.md                            # Top-level homepage
+├── README.md                           # GitHub repository description
+├── claude.md                           # This file (project instructions)
+├── Food/                               # Obsidian vault directory
+│   ├── .obsidian/                      # Obsidian configuration
+│   ├── content/                        # All recipe markdown files
+│   │   ├── Almond Flour Bread.md
+│   │   ├── Anchovy Salad.md
+│   │   ├── Artichoke Orzo.md
+│   │   └── ... (all other recipe .md files)
+│   └── assets/                         # Images and attachments
+│       ├── recipe-photo-1.jpg
+│       └── recipe-photo-2.png
+├── export/                             # Obsidian export target (for Quarto)
+│   ├── *.md                           # Exported recipe files
+│   └── assets/                        # Exported images
+└── docs/                              # Quarto build output (GitHub Pages)
+```
+
+## New Workflow (Obsidian Export + Quarto)
+
+**Daily editing (in Obsidian):**
+1. Open the `Food/` directory as Obsidian vault
+2. Edit recipes in `Food/content/` with full linking/graph view
+3. Add new photos to `Food/assets/`
+4. Use templates for new recipes
+
+**Publishing (when ready):**
+1. In Obsidian: Export vault contents to `/export` directory
+2. In terminal: Run `quarto render` to build website to `/docs`
+3. Commit and push to GitHub for automatic deployment
+
+**Repository commands:**
+```bash
+# Build website locally
+quarto render
+
+# Preview website
+quarto preview
+
+# Commit and publish to GitHub Pages
+git add . && git commit -m "Update recipes" && git push
 ```
 
 ## Current State Analysis Tasks
 
 ### Inventory & Discovery
 ```bash
-# Get overview of what we have
-claude "list all .md files (excluding claude.md) and categorize them as recipes vs other content"
+# Get overview of what we have in Obsidian vault
+claude "list all .md files in Food/content/ and categorize them as recipes vs other content"
 
 # Analyze YAML consistency  
-claude "scan all recipe files and show which ones have YAML frontmatter vs which don't"
+claude "scan all recipe files in Food/content/ and show which ones have YAML frontmatter vs which don't"
 
 # Find orphaned images
-claude "list all files in assets/ and check which recipes reference them"
+claude "list all files in Food/assets/ and check which recipes reference them"
 
 # Extract cuisine types from filenames and content
 claude "identify cuisine patterns from recipe names and content (Chinese, Mexican, etc.)"
@@ -36,16 +68,16 @@ claude "identify cuisine patterns from recipe names and content (Chinese, Mexica
 ### Content Analysis
 ```bash
 # Ingredient frequency analysis
-claude "scan all recipes and create a ranked list of most-used ingredients"
+claude "scan all recipes in Food/content/ and create a ranked list of most-used ingredients"
 
 # Cooking method inventory
-claude "find mentions of cooking techniques: sous vide, instant pot, grill, oven, etc."
+claude "find mentions of cooking techniques in Food/content/: sous vide, instant pot, grill, oven, etc."
 
 # Time estimates (where available)
-claude "extract any time mentions from recipes (prep time, cook time, marination time)"
+claude "extract any time mentions from recipes in Food/content/ (prep time, cook time, marination time)"
 
 # Equipment usage
-claude "identify specialized equipment mentioned across recipes"
+claude "identify specialized equipment mentioned across recipes in Food/content/"
 ```
 
 ## Quick Wins - Standardization
@@ -53,7 +85,7 @@ claude "identify specialized equipment mentioned across recipes"
 ### YAML Frontmatter (Phase 1)
 ```bash
 # Add minimal YAML to files missing it
-claude-code "add basic YAML frontmatter to any .md files that don't have it, following this pattern:
+claude "add basic YAML frontmatter to any .md files in Food/content/ that don't have it, following this pattern:
 ---
 categories:
 - [main category]
@@ -62,22 +94,22 @@ title: [Recipe Name]
 ---"
 
 # Analyze existing categories and tags
-claude-code "review all 'categories:' and 'tags:' entries across recipes and show duplicates/inconsistencies"
+claude "review all 'categories:' and 'tags:' entries across recipes in Food/content/ and show duplicates/inconsistencies"
 
 # Extract implicit metadata and suggest additions
-claude-code "scan recipe content and suggest additional YAML fields like prep_time, cook_time, servings that could be added"
+claude "scan recipe content in Food/content/ and suggest additional YAML fields like prep_time, cook_time, servings that could be added"
 ```
 
 ### Link Cleanup
 ```bash
 # Audit internal links
-claude "find all [[wikilinks]] and [markdown links] between recipes and verify they work"
+claude "find all [[wikilinks]] and [markdown links] between recipes in Food/content/ and verify they work"
 
 # Image link audit
-claude "list all image references and check if files exist in assets/"
+claude "list all image references in Food/content/ and check if files exist in Food/assets/"
 
 # Fix broken OneDrive links
-claude "find OneDrive embed URLs and suggest local asset/ alternatives"
+claude "find OneDrive embed URLs in Food/content/ and suggest local Food/assets/ alternatives"
 ```
 
 ## Content Enhancement
@@ -85,25 +117,25 @@ claude "find OneDrive embed URLs and suggest local asset/ alternatives"
 ### Missing Elements
 ```bash
 # Find recipes without photos
-claude "identify recipes that don't reference any images from assets/"
+claude "identify recipes in Food/content/ that don't reference any images from Food/assets/"
 
 # Incomplete recipes
-claude "find recipe files that are missing either ingredients list or instructions"
+claude "find recipe files in Food/content/ that are missing either ingredients list or instructions"
 
 # Add cross-references
-claude "suggest 'see also' connections between related recipes"
+claude "suggest 'see also' connections between related recipes in Food/content/"
 ```
 
 ### Consistency Fixes
 ```bash
 # Standardize ingredient formatting
-claude "normalize measurement units across all recipes (TBS→tablespoon, etc.)"
+claude "normalize measurement units across all recipes in Food/content/ (TBS→tablespoon, etc.)"
 
 # Fix capitalization
-claude "standardize recipe title capitalization in frontmatter and headings"
+claude "standardize recipe title capitalization in frontmatter and headings in Food/content/"
 
 # Spell check ingredients
-claude "check for spelling variations of common ingredients across recipes"
+claude "check for spelling variations of common ingredients across recipes in Food/content/"
 ```
 
 ## Export Preparation
@@ -111,25 +143,28 @@ claude "check for spelling variations of common ingredients across recipes"
 ### Generate Indexes
 ```bash
 # Create master ingredient index
-claude "generate ingredients-index.md linking each ingredient to recipes that use it"
+claude "generate ingredients-index.md linking each ingredient to recipes from Food/content/"
 
 # Build cuisine collections
-claude "create chinese-recipes.md, mexican-recipes.md, etc. with recipe lists"
+claude "create chinese-recipes.md, mexican-recipes.md, etc. with recipe lists from Food/content/"
 
 # Equipment-based groupings
-claude "create instant-pot-recipes.md, sous-vide-recipes.md collections"
+claude "create instant-pot-recipes.md, sous-vide-recipes.md collections from Food/content/"
 ```
 
-### Quarto Setup
+### Export & Publishing
 ```bash
-# Generate basic _quarto.yml
-claude "create _quarto.yml config file organizing current recipes into logical chapters"
+# Obsidian export to /export directory
+# (Done manually in Obsidian UI)
 
-# Create index.qmd
-claude "generate index.qmd with overview of recipe collection and navigation"
+# Build website with Quarto
+quarto render
 
-# Prepare for multi-format output
-claude "suggest file organization for both web and PDF publishing"
+# Preview locally
+quarto preview
+
+# Publish to GitHub Pages
+git add . && git commit -m "Update recipes" && git push
 ```
 
 ## Asset Management
@@ -137,10 +172,10 @@ claude "suggest file organization for both web and PDF publishing"
 ### Image Processing
 ```bash
 # Audit assets directory
-claude "analyze assets/ folder and suggest better naming convention tied to recipes"
+claude "analyze Food/assets/ folder and suggest better naming convention tied to recipes"
 
 # Find unused assets
-claude "identify image files in assets/ that aren't referenced by any recipe"
+claude "identify image files in Food/assets/ that aren't referenced by any recipe in Food/content/"
 
 # Optimize for web
 claude "suggest image compression/resizing strategy for web publishing"
@@ -151,41 +186,41 @@ claude "suggest image compression/resizing strategy for web publishing"
 ### Content Validation
 ```bash
 # Check recipe completeness
-claude "verify each recipe has ingredients, instructions, and reasonable metadata"
+claude "verify each recipe in Food/content/ has ingredients, instructions, and reasonable metadata"
 
 # Find formatting inconsistencies
-claude "identify recipes with non-standard section headers or formatting"
+claude "identify recipes in Food/content/ with non-standard section headers or formatting"
 
 # Validate measurements
-claude "check for obvious measurement errors (like '100 tablespoons salt')"
+claude "check for obvious measurement errors in Food/content/ (like '100 tablespoons salt')"
 ```
 
-## Example Workflow
+## Updated Example Workflows
 
-**Morning routine (in Obsidian):**
-1. Edit recipes normally with full linking/graph view
-2. Add new photos to assets/
-3. Use templates for new recipes
+**Daily editing routine (in Obsidian):**
+1. Open Food/ directory as Obsidian vault
+2. Edit recipes in Food/content/ with full linking/graph view
+3. Add new photos to Food/assets/
+4. Use templates for new recipes
 
-**Weekly batch processing (in terminal):**
+**Weekly maintenance (in terminal):**
 ```bash
 # Quick health check
-claude "summarize any new recipes added and missing metadata"
+claude "summarize any new recipes added to Food/content/ and missing metadata"
 
 # Maintain consistency  
-claude "fix any new YAML frontmatter inconsistencies"
+claude "fix any new YAML frontmatter inconsistencies in Food/content/"
 
-# Update indexes
-claude "regenerate ingredient and cuisine indexes with any new recipes"
+# Update indexes (if needed)
+claude "regenerate ingredient and cuisine indexes with any new recipes from Food/content/"
 ```
 
-**Publishing prep (when ready):**
+**Publishing workflow:**
 ```bash
-# Pre-flight check
-claude "validate all recipes are ready for publishing (complete metadata, working links)"
-
-# Generate build files
-claude "create updated _quarto.yml and any missing index files"
+# 1. Export from Obsidian (Food/ vault) to /export directory
+# 2. Build and publish website
+quarto render
+git add . && git commit -m "Update recipes" && git push
 ```
 
 ## File Naming Patterns to Recognize
@@ -206,9 +241,17 @@ Current pattern: `Descriptive Recipe Name.md`
 
 Run these to understand current state:
 ```bash
-claude "give me a summary of my recipe collection: how many files, common patterns, missing elements"
+claude "give me a summary of my recipe collection in Food/content/: how many files, common patterns, missing elements"
 
-claude "show me 3 examples of recipes with good YAML frontmatter and 3 without any"
+claude "show me 3 examples of recipes from Food/content/ with good YAML frontmatter and 3 without any"
 
-claude "what's the most and least complete recipe in terms of metadata and content?"
+claude "what's the most and least complete recipe in Food/content/ in terms of metadata and content?"
 ```
+
+## Key Directory Paths for Claude Commands
+
+- **Recipe content**: `Food/content/` (all .md recipe files)
+- **Images/assets**: `Food/assets/` (all images and attachments)  
+- **Export target**: `export/` (where Obsidian exports for Quarto)
+- **Website build**: `docs/` (Quarto output for GitHub Pages)
+- **Configuration**: `_quarto.yml` (website structure and navigation)

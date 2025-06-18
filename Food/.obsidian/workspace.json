@@ -166,8 +166,10 @@
       "cmdr:Templater: Open insert template modal Publish to Github": false
     }
   },
-  "active": "6792faf5a6da2229",
+  "active": "05c45fd67c1abbf9",
   "lastOpenFiles": [
+    "publish-script.sh",
+    "publish-to-github.sh",
     "assets/0B5D1BC2-5BCA-49CB-945E-13DB78C35183_1_105_c.jpeg",
     "assets/templates/Publish.md",
     "content/Sous Vide Chicken.md",
@@ -188,11 +190,9 @@
     "docs/assets/sous-vide-chicken-thighs.jpeg",
     "docs/assets/sourdough-bread-final.jpeg",
     "docs/assets/salmon-simple-sauce.jpg",
-    "docs/assets/brussels-sprouts-mexican.png",
     "docs/assets/images",
     "docs/assets",
     "docs/site_libs/quarto-search/quarto-search.js",
-    "docs/site_libs/quarto-search/fuse.min.js",
     "content/Instant Pot Bone Broth.md",
     "content/Hungry Root Meal Kit.md",
     "content/Almond Flour Bread.md",
